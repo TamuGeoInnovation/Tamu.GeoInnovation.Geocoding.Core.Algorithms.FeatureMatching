@@ -6,6 +6,6 @@ namespace USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.Sources.Interfaces
     public interface IExactMatcher
     {
         ReferenceSourceQuery[] BuildExactQueries(ParameterSet parameterSet);
-        
+
     }
 }
